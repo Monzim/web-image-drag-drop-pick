@@ -1,0 +1,23 @@
+name: web_image_drop_app
+description: A Flutter project for Drag and drop image from web.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  dotted_border: ^2.0.0
+  flutter_dropzone: ^2.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
